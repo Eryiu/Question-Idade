@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    color: rgb(77, 3, 43);
+    background-color: rgb(184, 164, 201);
+}
+
+.linha-form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgba(90, 1, 46, 0.678);
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+button:hover{
+    background-color: rgb(194, 92, 207);
+}
+
+button:active{
+    transform: scale(0.9);
+}
